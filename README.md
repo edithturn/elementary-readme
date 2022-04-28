@@ -119,6 +119,7 @@ A-->C;
 B-->D;
 C-->D;
 ```
+
 ```bash
 ```mermaid
 flowchart LR 
@@ -129,6 +130,7 @@ C -->|Two| E[Result 2]
 ```
 ```
 Result:
+
 ```mermaid
 flowchart LR 
 A[Start] -->|Text| B(Round)
@@ -146,6 +148,7 @@ pie
 ```
 ```
 Result
+
 ```mermaid
 pie
 "Dogs" : 386
