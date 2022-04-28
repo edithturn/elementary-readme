@@ -148,7 +148,7 @@ C-->|Two| E[Result 2]
 
 ```mermaid
 flowchart TD
-A[Start]-->|Text| B(Round)
+A[init]-->|Text| B(Round)
 B-->C{Decision}
 C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
