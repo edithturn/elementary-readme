@@ -208,8 +208,6 @@ Result:
     C-->|Two| E[Result 2]
     ```
 ```
-Result:
-
 ```mermaid
 flowchart TD
 A[start]-->|Text| B(Round)
@@ -217,8 +215,6 @@ B-->C{Decision}
 C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
 ```
-
-Result:
 
 ```sh
 #Graph chart
@@ -230,7 +226,6 @@ Result:
     C-->D
     ```
 ```
-Result:
 
 ```mermaid
 graph TD
@@ -239,6 +234,23 @@ A-->C
 B-->D
 C-->D
 ```
+```sh
+# Flow Vhart
+  ```mermaid
+  flowchart LR
+      A:::someclass --> B
+      classDef someclass fill:#f96;
+  ```
+```
+
+```sh
+  # Flow Vhart
+  ```mermaid
+  flowchart LR
+      A:::someclass --> B
+      classDef someclass fill:#f96;
+  ```
+```
 
 ```mermaid
 flowchart LR
@@ -246,16 +258,32 @@ flowchart LR
     classDef someclass fill:#f96;
 ```
 
+```sh
+# Flow Chart with references
+  ```mermaid
+  flowchart LR
+      A-->B
+      B-->C
+      C-->D
+      D-->E
+      click A "http://www.github.com" _blank
+      click B "http://www.github.com" "Open this in a new tab" _blank
+      click C href "http://www.github.com" _blank
+      click D href "http://www.github.com" "Open this in a new tab" _blank
+  ```
+```
+
 ```mermaid
+
 flowchart LR
     A-->B
     B-->C
     C-->D
     D-->E
     click A "http://www.github.com" _blank
-    click B "http://www.github.com" "Open this in a new tab" _blank
+    click B "http://www.github.com" "Open this in a new tab" _blank fill:#f96
     click C href "http://www.github.com" _blank
-    click D href "http://www.github.com" "Open this in a new tab" _blank
+    click D href "http://www.github.com" "Open this in a new tab" _blank fill:#f96
 ```
 [More about Mermaid](https://mermaid-js.github.io/mermaid/#/)
 ## Checklist
@@ -275,10 +303,6 @@ flowchart LR
     - :heavy_check_mark: Dog
     - :heavy_check_mark: Cat
 
-## Audio
-
-<audio src="ThatOneBarScene-RKVC.mp3" controls preload></audio>
-
 ## Video
 
 ### Simple
@@ -287,7 +311,7 @@ flowchart LR
 ### Customized
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
-        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="360"
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="560"
              alt="Airflow Breeze - Building images">
       </a>
 </div>
