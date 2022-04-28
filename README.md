@@ -119,6 +119,15 @@ C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
 ```
 
+```bash
+    ```mermaid
+    pie
+    "Dogs":386
+    "Cats":85
+    "Rats":15
+    ```
+```
+
 ```mermaid
 pie
 "Dogs":386
