@@ -258,6 +258,12 @@ C-->D
   <a href="https://youtu.be/fKopy74weus"><img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
 
+<a href="https://youtu.be/fKopy74weus" title="Music Caster Video Demo">
+  <p align="center" target="_blank">
+    <img width="75%" src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" alt="Music Caster Video Demo Thumbnail"/>
+  </p>
+</a>
+
 
 ## Footnote
 
