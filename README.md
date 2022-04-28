@@ -102,13 +102,13 @@ Result:
 ## Mermaid diagrams
 
 ```bash
-```mermaid
-flowchart TD
-A[start]-->|Text| B(Round)
-B-->C{Decision}
-C-->|One| D[Result 1]
-C-->|Two| E[Result 2]
-```
+    ```mermaid
+    flowchart TD
+    A[start]-->|Text| B(Round)
+    B-->C{Decision}
+    C-->|One| D[Result 1]
+    C-->|Two| E[Result 2]
+    ```
 ```
 
 ```mermaid
