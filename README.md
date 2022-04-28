@@ -101,42 +101,6 @@ Result:
 
 ## Mermaid diagrams
 
-```bash
-```mermaid
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-```
-```
-Result:
-
-
-
-```bash
-```mermaid
-flowchart LR
-A[Start]-->|Text| B(Round)
-B-->C{Decision}
-C-->|One| D[Result 1]
-C-->|Two| E[Result 2]
-```
-```
-Result:
-
-
-
-```bash
-```mermaid
-pie
-"Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
-```
-```
-
-
 
 ```mermaid
 flowchart LR
@@ -148,7 +112,7 @@ C-->|Two| E[Result 2]
 
 ```mermaid
 flowchart TD
-A[init]-->|Text| B(Round)
+A[start]-->|Text| B(Round)
 B-->C{Decision}
 C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
