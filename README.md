@@ -63,12 +63,6 @@ This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ 
   <img width="180" height="160" src="img/Professortocat_v2.png">
 </p>
 
-![GitHub Light](https://github.com/github-light.png#gh-light-mode-only)
-![GitHub Dark](https://github.com/github-light.png#gh-dark-mode-only)
-
-
-
-
 ## Insert a GIF
 This is the same as image:
 
@@ -257,6 +251,9 @@ C-->D
 ## Video
 
 [<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%" target="_blank">](https://youtu.be/fKopy74weus)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg)](https://youtu.be/fKopy74weus)
+
 
 
 ## Footnote
