@@ -2,37 +2,48 @@
 Summary of what you can add on your redame pages to make it more attractive
 
 
-## Insert Image
+## Insert an image
 
 ```html
-<p align="center">
-  <img width="180" height="160" src="img/final.png">
-</p>
+  <p align="center">
+    <img width="180" height="160" src="img/final.png">
+  </p>
 ```
-
-Example: 
+ 
 <p align="center">
   <img width="180" height="160" src="img/Professortocat_v2.png">
 </p>
 
+## Insert a GIF
+This is the same as image:
+
+ 
+ ```html
+  <p align="center">
+    <img width="280" height="160" src="img/womanwhocode.gif">
+  </p>
+ ```
+<p align="center">
+  <img width="280" height="160" src="img/womanwhocode.gif">
+</p>
 
 ## Links and Urls
 ```bash
-[GitHub Emoticones](https://gist.github.com/rxaviers/7360908)
+[Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 ```
 Example:
 
 [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
-## Emoticones
-You can copy paste from the here: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+## Insert Emojis
+You can copy and paste from this list: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 ```bash
-:blush: :sweat_drops: :innocent: :turtle:
+:blush: :sweat_drops: :innocent: :turtle: :paw_prints: :tulip: :santa: :bulb: :postal_horn: :dart: :grapes:
 ```
 Result:
-:blush: :sweat_drops: :innocent: :turtle:
+:blush: :sweat_drops: :innocent: :turtle: :paw_prints: :tulip: :santa: :bulb: :postal_horn: :dart: :grapes:
 
-## Code
+## Insert code
 
 ```bash
 #bash  
@@ -155,6 +166,17 @@ A-->C
 B-->D
 C-->D
 ```
+## Checlists
+- [x] **Fruits**  :blush:
+    - :heavy_check_mark: Apples
+    - :heavy_check_mark: Oranges
+- [x] **Animals**  :blush:
+    - :heavy_check_mark: Dog
+    - :heavy_check_mark: Cat
+
+## Audio
+
+![](filename.mp3)
 
 ## Videos
 
