@@ -139,7 +139,7 @@ pie
 
 
 ```mermaid
-flowchart TD
+flowchart LR
 A[Start]-->|Text| B(Round)
 B-->C{Decision}
 C-->|One| D[Result 1]
@@ -147,7 +147,7 @@ C-->|Two| E[Result 2]
 ```
 
 ```mermaid
-flowchart LR
+flowchart TD
 A[Start]-->|Text| B(Round)
 B-->C{Decision}
 C-->|One| D[Result 1]
