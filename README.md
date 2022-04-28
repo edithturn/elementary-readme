@@ -88,13 +88,27 @@ This is the same as image:
   <img width="280" height="160" src="img/womanwhocode.gif">
 </p>
 
-## Links
+
+## References
+
 ```bash
+# To external resources
 [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 ```
-Result:
+  [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
-[Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+```bash
+# To same Readme page
+[Go to another topic in the same Readme](#badgets)
+```
+  [Go to another topic in the same Readme](#badgets)
+
+```bash
+# To another Readme on this directory
+[Go to another Readme in this workspace](other/Readme.md)
+```
+  [Go to another Readme in this workspace](other/Readme.md)
+
 
 ## Insert emojis
 You can copy and paste from this list: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
@@ -135,9 +149,6 @@ print("Hello, World!")
 ```html   
 <img src="images/firefox-icon.png" alt="My test image">
 ```
-
-##  Links
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 
 ## List
@@ -272,6 +283,12 @@ C-->D
              alt="Airflow Breeze - Building images">
       </a>
 </div>
+
+
+## Keyboard input
+<kbd>ALT + F4</kbd> 
+<kbd>CTRL + C</kbd> 
+<kbd>CTRL + V</kbd> 
 
 ## Footnote
 
