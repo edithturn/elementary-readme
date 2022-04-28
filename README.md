@@ -42,6 +42,18 @@ Table of Contents
 For long files you can autogenerate table of contents, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
 
 
+## Badgets
+
+```bash
+![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+```
+![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Python](https://img.shields.io/badge/PRs-welcome-blueviolet)
+
+Create your own url badget: https://shields.io/
+
 ## Quotes
 
 > “It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest. —Walter Anderson
@@ -250,14 +262,13 @@ C-->D
 
 ## Video
 
-# Simple
+### Simple
 [<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%">](https://youtu.be/fKopy74weus)
 
-## Cuztomized
-
-<div align="center">
+### Customized
+<div align="left">
       <a href="https://youtu.be/fKopy74weus">
-        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="640"
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="360"
              alt="Airflow Breeze - Building images">
       </a>
 </div>
