@@ -132,12 +132,11 @@ C -->|Two| E[Result 2]
 Result:
 
 ```mermaid
-flowchart LR 
-
-A[Start] -->|Text| B(Round);
-B --> C{Decision};
-C -->|One| D[Result 1];
-C -->|Two| E[Result 2];
+flowchart LR
+A[Start]-->|Text|B(Round)
+B--> C{Decision}
+C-->|One| D[Result 1]
+C-->|Two| E[Result 2]
 ```
 
 ```bash
@@ -149,8 +148,8 @@ pie
     "Rats" : 15
 ```
 ```
-Result
 
+Result
 ```mermaid
 pie
 "Dogs" : 386
