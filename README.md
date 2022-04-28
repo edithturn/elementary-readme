@@ -3,7 +3,7 @@ Summary of what you can add on your redame pages to make it more attractive
 
 ## Table of Contents (TOC)
 
-```bash
+```sh
 Table of Contents
 =================
 * [Elemental Readme](#elemental-readme)
@@ -44,7 +44,7 @@ For long files you can autogenerate table of contents, see more [Generate TOC 'T
 
 ## Badgets
 
-```bash
+```sh
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
@@ -94,19 +94,19 @@ This is the same as image:
 
 ## References
 
-```bash
+```sh
 # To external resources
 [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 ```
   [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
-```bash
+```sh
 # To same Readme page
 [Go to another topic in the same Readme](#badgets)
 ```
   [Go to another topic in the same Readme](#badgets)
 
-```bash
+```sh
 # To another Readme on this directory
 [Go to another Readme in this workspace](other/Readme.md)
 ```
@@ -123,21 +123,21 @@ Result:
 
 ## Insert code
 
-```console
+```sh
     # Bash  
     ```bash
     echo "Hello World!"
     ``` 
 ```
 
-```bash
+```sh
     # Python
     ```python
     print("Hello, World!")
     ```
 ```
 
-```bash
+```sh
     # Html
     ```html   
     <img src="images/firefox-icon.png" alt="My test image">
@@ -145,7 +145,7 @@ Result:
 ```
 Result:
 
-```bash
+```sh
 echo "Hello World!"
 ```   
 ```python
@@ -180,7 +180,7 @@ Result:
 
 ## Tables
 
-```bash
+```sh
 | Value    | Description |
 |--------- |-------------|
 | 1        | Meli        |
@@ -198,7 +198,7 @@ Result:
 
 ## Mermaid diagrams
 
-```bash
+```sh
 # FlowChart
     ```mermaid
     flowchart TD
@@ -237,7 +237,7 @@ pie
 
 Result:
 
-```bash
+```sh
 #Graph chart
     ```mermaid
     graph TD
@@ -259,7 +259,7 @@ C-->D
 
 ## Checklist
 
-```bash
+```sh
 - [x] **Fruits** :grapes:
     - :heavy_check_mark: Apples
     - :heavy_check_mark: Oranges
