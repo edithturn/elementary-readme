@@ -158,7 +158,4 @@ C-->D
 
 ## Videos
 
-[![Watch the video](https://img.youtube.com/vi/v3tb-m0Ez4I&t=1s/maxresdefault.jpg)](https://www.youtube.com/watch?v=v3tb-m0Ez4I&t=1s)
-
-
-[<img src="https://img.youtube.com/vi/v3tb-m0Ez4I&t=1s/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=v3tb-m0Ez4I&t=1s)
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="60%">](https://youtu.be/fKopy74weus)
