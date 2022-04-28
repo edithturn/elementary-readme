@@ -251,17 +251,16 @@ C-->D
 ## Video
 
 # Simple
-[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%" target="_blank">](https://youtu.be/fKopy74weus)
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%">](https://youtu.be/fKopy74weus)
 
 ## Cuztomized
 
 <div align="center">
       <a href="https://youtu.be/fKopy74weus">
         <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="640"
-             alt="Airflow Breeze - Building images" target="_blank">
+             alt="Airflow Breeze - Building images">
       </a>
 </div>
-
 
 ## Footnote
 
