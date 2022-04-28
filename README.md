@@ -250,19 +250,17 @@ C-->D
 
 ## Video
 
+# Simple
 [<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%" target="_blank">](https://youtu.be/fKopy74weus)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg)](https://youtu.be/fKopy74weus)
+## Cuztomized
 
-<div align="center" target="_blank">
-  <a href="https://youtu.be/fKopy74weus"><img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" alt="IMAGE ALT TEXT"></a>
+<div align="center">
+      <a href="https://youtu.be/fKopy74weus">
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="640"
+             alt="Airflow Breeze - Building images" target="_blank">
+      </a>
 </div>
-
-<a href="https://youtu.be/fKopy74weus" title="Music Caster Video Demo">
-  <p align="center" target="_blank">
-    <img width="75%" src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" alt="Music Caster Video Demo Thumbnail"/>
-  </p>
-</a>
 
 
 ## Footnote
