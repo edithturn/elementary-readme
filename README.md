@@ -102,6 +102,7 @@ Result:
 ## Mermaid diagrams
 
 ```bash
+# FlowChart
     ```mermaid
     flowchart TD
     A[start]-->|Text| B(Round)
@@ -120,6 +121,7 @@ C-->|Two| E[Result 2]
 ```
 
 ```bash
+# Pie Chart
     ```mermaid
     pie
     "Dogs":386
@@ -133,6 +135,17 @@ pie
 "Dogs":386
 "Cats":85
 "Rats":15
+```
+
+```bash
+#Graph chart
+    ```mermaid
+    graph TD
+    A-->B
+    A-->C
+    B-->D
+    C-->D
+    ```
 ```
 
 ```mermaid
