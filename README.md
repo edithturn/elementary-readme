@@ -46,6 +46,9 @@ For long files you can autogenerate table of contents, see more [Generate TOC 'T
 
 ```bash
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+![Python](https://img.shields.io/badge/PRs-welcome-blueviolet)
 ```
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
@@ -67,12 +70,12 @@ This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ 
 
 ```html
   <p align="center">
-    <img width="180" height="160" src="img/final.png">
+    <img width="200" height="200" src="img/final.png">
   </p>
 ```
  
 <p align="center">
-  <img width="180" height="160" src="img/Professortocat_v2.png">
+  <img width="200" height="200" src="img/Professortocat_v2.png">
 </p>
 
 ## Insert a GIF
@@ -85,7 +88,7 @@ This is the same as image:
   </p>
  ```
 <p align="center">
-  <img width="280" height="160" src="img/womanwhocode.gif">
+  <img width="300" height="180" src="img/womanwhocode.gif">
 </p>
 
 
@@ -120,23 +123,25 @@ Result:
 
 ## Insert code
 
-```bash
-  #bash  
-  ```bash
-  echo "Hello World!"
-  ``` 
+```console
+    # Bash  
+    ```bash
+    echo "Hello World!"
+    ``` 
 ```
-```bash 
-  # Python
-  ```python
+
+```bash
+    # Python
+    ```python
     print("Hello, World!")
-  ```
+    ```
 ```
+
 ```bash
-  # Html
-  ```html   
+    # Html
+    ```html   
     <img src="images/firefox-icon.png" alt="My test image">
-  ```
+    ```
 ```
 Result:
 
@@ -157,7 +162,9 @@ print("Hello, World!")
 - Two
 - Three
   - Three one
+    - Other
   - Three two
+    - Other
 ```
 Result:
 - One
@@ -274,7 +281,7 @@ C-->D
 ## Video
 
 ### Simple
-[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%">](https://youtu.be/fKopy74weus)
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="50%">](https://youtu.be/fKopy74weus)
 
 ### Customized
 <div align="left">
