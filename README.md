@@ -208,6 +208,7 @@ Result:
     C-->|Two| E[Result 2]
     ```
 ```
+
 ```mermaid
 flowchart TD
 A[start]-->|Text| B(Round)
@@ -217,39 +218,12 @@ C-->|Two| E[Result 2]
 ```
 
 ```sh
-#Graph chart
-    ```mermaid
-    graph TD
-    A-->B
-    A-->C
-    B-->D
-    C-->D
-    ```
-```
-
-```mermaid
-graph TD
-A-->B
-A-->C
-B-->D
-C-->D
-```
-```sh
 # Flow Vhart
-  ```mermaid
-  flowchart LR
-      A:::someclass --> B
-      classDef someclass fill:#f96;
-  ```
-```
-
-```sh
-  # Flow Vhart
-  ```mermaid
-  flowchart LR
-      A:::someclass --> B
-      classDef someclass fill:#f96;
-  ```
+    ```mermaid
+    flowchart LR
+        A:::someclass --> B
+        classDef someclass fill:#f96;
+    ```
 ```
 
 ```mermaid
@@ -260,21 +234,20 @@ flowchart LR
 
 ```sh
 # Flow Chart with references
-  ```mermaid
-  flowchart LR
-      A-->B
-      B-->C
-      C-->D
-      D-->E
-      click A "http://www.github.com" _blank
-      click B "http://www.github.com" "Open this in a new tab" _blank
-      click C href "http://www.github.com" _blank
-      click D href "http://www.github.com" "Open this in a new tab" _blank
-  ```
+    ```mermaid
+    flowchart LR
+        A-->B
+        B-->C
+        C-->D
+        D-->E
+        click A "http://www.github.com" _blank
+        click B "http://www.github.com" "Open this in a new tab" _blank
+        click C href "http://www.github.com" _blank
+        click D href "http://www.github.com" "Open this in a new tab" _blank
+    ```
 ```
 
 ```mermaid
-
 flowchart LR
     A-->B
     B-->C
