@@ -35,15 +35,19 @@ Result:
 ## Code
 
 ```bash
-    # Bash
+#bash  
     ```bash
     echo "Hello World!"
-    ```   
-    # Python
+    ``` 
+```
+```bash 
+# Python
     ```python
-    print("Hello, World!")
+     print("Hello, World!")
     ```
-     # Html
+```
+```bash
+# Html
     ```html   
         <img src="images/firefox-icon.png" alt="My test image">
     ```
@@ -109,44 +113,42 @@ graph TD;
 Result:
 
 ```mermaid
-    graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
 ```
 ```bash
 ```mermaid
-    flowchart LR 
-
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
+flowchart LR 
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
 ```
 ```
 Result:
 ```mermaid
-    flowchart LR 
-
-    A[Start] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
+flowchart LR 
+A[Start] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
 ```
 
 ```bash
 ```mermaid
-    pie
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+pie
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
 ```
 ```
 Result
 ```mermaid
-    pie
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+pie
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
 ```
