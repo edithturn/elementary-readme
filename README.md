@@ -254,6 +254,9 @@ C-->D
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg)](https://youtu.be/fKopy74weus)
 
+<div align="center" target="_blank">
+  <a href="https://youtu.be/fKopy74weus"><img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
 
 
 ## Footnote
