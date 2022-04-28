@@ -131,13 +131,6 @@ C -->|Two| E[Result 2]
 ```
 Result:
 
-```mermaid
-flowchart LR
-A[Start]-->|Text|B(Round)
-B--> C{Decision}
-C-->|One| D[Result 1]
-C-->|Two| E[Result 2]
-```
 
 ```bash
 ```mermaid
@@ -162,4 +155,12 @@ flowchart TD
 A[PR arrives]-->B[Selective Check]
 B-->C{Direct push merge?}
 C-->|Yes: Enable images| D[Run Full Test<br />+Quarantined<br />run full static checks]
+```
+
+```mermaid
+flowchart LR
+A[Start]-->|Text| B(Round)
+B-->C{Decision}
+C-->|One| D[Result 1]
+C-->|Two| E[Result 2]
 ```
