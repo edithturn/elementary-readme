@@ -158,4 +158,4 @@ C-->D
 
 ## Videos
 
-[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" target="_blank" width="60%">](https://youtu.be/fKopy74weus)
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="70%" target="_blank">](https://youtu.be/fKopy74weus)
