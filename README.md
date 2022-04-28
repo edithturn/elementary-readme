@@ -164,13 +164,13 @@ print("Hello, World!")
   - Three one
     - Other
   - Three two
-    - Other
 ```
 Result:
 - One
 - Two
 - Three
   - Three one
+    - Other
   - Three two
 
 1. One
@@ -218,23 +218,6 @@ C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
 ```
 
-```bash
-# Pie Chart
-    ```mermaid
-    pie
-    "Dogs":386
-    "Cats":85
-    "Rats":15
-    ```
-```
-
-```mermaid
-pie
-"Dogs":386
-"Cats":85
-"Rats":15
-```
-
 Result:
 
 ```sh
@@ -257,6 +240,24 @@ B-->D
 C-->D
 ```
 
+```mermaid
+flowchart LR
+    A:::someclass --> B
+    classDef someclass fill:#f96;
+```
+
+```mermaid
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+    click A "http://www.github.com" _blank
+    click B "http://www.github.com" "Open this in a new tab" _blank
+    click C href "http://www.github.com" _blank
+    click D href "http://www.github.com" "Open this in a new tab" _blank
+```
+[More about Mermaid](https://mermaid-js.github.io/mermaid/#/)
 ## Checklist
 
 ```sh
@@ -293,6 +294,7 @@ C-->D
 
 
 ## Keyboard input
+
 <kbd>ALT + F4</kbd> 
 <kbd>CTRL + C</kbd> 
 <kbd>CTRL + V</kbd> 
