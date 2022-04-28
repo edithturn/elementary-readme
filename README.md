@@ -1,7 +1,7 @@
 # Elemental Readme
 Summary of what you can add on your redame pages to make it more attractive
 
-## table of content
+## Table of Contents (TOC)
 
 ```bash
 Table of Contents
@@ -39,16 +39,19 @@ Table of Contents
    * [Video](#video)
    * [table of content](#table-of-content)
 
-For long files you can autogenerate table of content, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
+For long files you can autogenerate table of contents, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
+
 
 ## Quotes
 
 > “It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest. —Walter Anderson
 
+
 ## Bold, Italics and Underline
 
 This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
-## Insert an image
+
+## Insert an Image
 
 ```html
   <p align="center">
@@ -59,6 +62,12 @@ This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ 
 <p align="center">
   <img width="180" height="160" src="img/Professortocat_v2.png">
 </p>
+
+![GitHub Light](https://github.com/github-light.png#gh-light-mode-only)
+![GitHub Dark](https://github.com/github-light.png#gh-dark-mode-only)
+
+
+
 
 ## Insert a GIF
 This is the same as image:
@@ -120,6 +129,9 @@ print("Hello, World!")
 ```html   
 <img src="images/firefox-icon.png" alt="My test image">
 ```
+
+##  Links
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 
 ## List
