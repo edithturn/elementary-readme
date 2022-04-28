@@ -142,13 +142,7 @@ pie
 ```
 ```
 
-Result
-```mermaid
-pie
-"Dogs":386
-"Cats":85
-"Rats":15
-```
+
 
 ```mermaid
 flowchart TD
@@ -157,10 +151,18 @@ B-->C{Decision}
 C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
 ```
+
 ```mermaid
 flowchart LR
 A[Start]-->|Text| B(Round)
 B-->C{Decision}
 C-->|One| D[Result 1]
 C-->|Two| E[Result 2]
+```
+
+```mermaid
+pie
+"Dogs":386
+"Cats":85
+"Rats":15
 ```
