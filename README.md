@@ -21,6 +21,7 @@ Table of Contents
    * [table of content](#table-of-content)
 
 ```
+Result :arrow_down:
 
 Table of Contents
 =================
@@ -61,11 +62,19 @@ Create your own url badget: https://shields.io/
 
 ## Quotes
 
+```sh
+> “It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest. —Walter Anderson
+```
+Result :arrow_down:
+
 > “It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest. —Walter Anderson
 
 
 ## Bold, Italics and Underline
 
+```sh
+This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
+```
 This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
 
 ## Insert an Image
@@ -266,19 +275,26 @@ flowchart LR
 ## Checklist
 
 ```sh
-- [x] **Fruits** :grapes:
-    - :heavy_check_mark: Apples
-    - :heavy_check_mark: Oranges
-- [] **Animals**  :turtle:
-    - :heavy_check_mark: Dog
-    - :heavy_check_mark: Cat
+[x] **Fruits** :grapes:
+  - :heavy_check_mark: Apples
+  - :heavy_check_mark: Oranges
+[ ] **Animals**  :turtle:
+  - :heavy_check_mark: Dog
+  - :heavy_check_mark: Cat
 ```
-- [x] **Fruits** :grapes:
-    - :heavy_check_mark: Apples
-    - :heavy_check_mark: Oranges
-- [] **Animals**  :turtle:
-    - :heavy_check_mark: Dog
-    - :heavy_check_mark: Cat
+
+[x] **Fruits** :grapes:
+  - :heavy_check_mark: Apples
+  - :heavy_check_mark: Oranges
+[ ] **Animals**  :turtle:
+  - :heavy_check_mark: Dog
+  - :heavy_check_mark: Cat
+
+## Keyboard input
+
+<kbd>ALT + F4</kbd> 
+<kbd>CTRL + C</kbd> 
+<kbd>CTRL + V</kbd> 
 
 ## Video
 
@@ -293,12 +309,6 @@ flowchart LR
       </a>
 </div>
 
-
-## Keyboard input
-
-<kbd>ALT + F4</kbd> 
-<kbd>CTRL + C</kbd> 
-<kbd>CTRL + V</kbd> 
 
 ## Footnote
 
