@@ -1,5 +1,5 @@
-# Elemental Readme :bookmark_tabs: :octocat:
-"Elementary Readme" is a collection of Markdown elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation.
+# Elemental Readme :bookmark_tabs: :art:
+"Elementary Readme" is a collection of Markdown elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation. :octocat:
 
 ## Table of Contents (TOC)
 
@@ -18,8 +18,6 @@ Table of Contents
    * [Checklist](#checklist)
    * [Audio](#audio)
    * [Video](#video)
-   * [table of content](#table-of-content)
-
 ```
 Result :arrow_down:
 
@@ -38,7 +36,6 @@ Table of Contents
    * [Checklist](#checklist)
    * [Audio](#audio)
    * [Video](#video)
-   * [table of content](#table-of-content)
 
 :books: For long files, you can autogenerate the table of contents TOC, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
 
@@ -91,10 +88,8 @@ Result :arrow_down:
 </p>
 
 ## Insert a GIF
-This is the same as image:
-
- 
- ```html
+The same way how image is inserted
+```html
   <p align="center">
     <img width="300" height="280" src="img/daftpunktocat-guy.gif">
   </p>
@@ -103,10 +98,6 @@ This is the same as image:
 Result :arrow_down:
 <p align="center">
   <img width="300" height="280" src="img/daftpunktocat-guy.gif">
-</p>
-
-<p align="center">
-  <img width="300" height="280" src="img/daftpunktocat-thomas.gif">
 </p>
 
 
