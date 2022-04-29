@@ -1,4 +1,4 @@
-# Elemental Readme :bookmark_tabs:
+# Elemental Readme :bookmark_tabs: :octocat:
 "Elementary Readme" is a collection of Markdown elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation.
 
 ## Table of Contents (TOC)
@@ -81,13 +81,13 @@ This is **bold text**, this is *italic text*, we can also cross out a ~~word~~ o
 
 ```html
   <p align="center">
-    <img width="200" height="200" src="img/final.png">
+    <img width="300" height="300" src="img/octopus-bb.png">
   </p>
 ```
 Result :arrow_down:
 
 <p align="center">
-  <img width="200" height="200" src="img/Professortocat_v2.png">
+  <img width="300" height="300" src="img/octopus-bb.png">
 </p>
 
 ## Insert a GIF
@@ -96,14 +96,19 @@ This is the same as image:
  
  ```html
   <p align="center">
-    <img width="280" height="160" src="img/womanwhocode.gif">
+    <img width="300" height="280" src="img/daftpunktocat-guy.gif">
   </p>
  ```
 
 Result :arrow_down:
 <p align="center">
-  <img width="300" height="180" src="img/womanwhocode.gif">
+  <img width="300" height="280" src="img/daftpunktocat-guy.gif">
 </p>
+
+<p align="center">
+  <img width="300" height="280" src="img/daftpunktocat-thomas.gif">
+</p>
+
 
 ## Mermaid diagrams
 
@@ -320,15 +325,13 @@ Result :arrow_down:
 ## Checklist
 
 ```sh
-[x] **Fruits** :grapes:
+- [x] **Fruits** :grapes:
   - :heavy_check_mark: Apples
   - :heavy_check_mark: Oranges
-
-[X] **Animals**  :turtle:
+- [X] **Animals**  :turtle:
   - :heavy_check_mark: Dog
   - :heavy_check_mark: Cat
-
-[ ] **Objets**  ::guitar::
+- [ ] **Objets**  ::guitar::
 ```
 
 Result :arrow_down:
