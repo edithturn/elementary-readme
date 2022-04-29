@@ -318,21 +318,36 @@ Result :arrow_down:
 [x] **Fruits** :grapes:
   - :heavy_check_mark: Apples
   - :heavy_check_mark: Oranges
-[ ] **Animals**  :turtle:
+
+[X] **Animals**  :turtle:
   - :heavy_check_mark: Dog
   - :heavy_check_mark: Cat
+
+[ ] **Objets**  ::guitar::
 ```
+
+Result :arrow_down:
 
 [x] **Fruits** :grapes:
   - :heavy_check_mark: Apples
   - :heavy_check_mark: Oranges
+
 [X] **Animals**  :turtle:
   - :heavy_check_mark: Dog
   - :heavy_check_mark: Cat
-[ ] **Animals**  :turtle:
+
+[ ] **Objets**  ::guitar::
  
 
 ## Keyboard input
+
+```sh
+<kbd>ALT + F4</kbd> 
+<kbd>CTRL + C</kbd> 
+<kbd>CTRL + V</kbd> 
+```
+
+Result :arrow_down:
 
 <kbd>ALT + F4</kbd> 
 <kbd>CTRL + C</kbd> 
@@ -341,9 +356,26 @@ Result :arrow_down:
 ## Video
 
 ### Simple
+
+```html
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="60%">](https://youtu.be/fKopy74weus)
+```
+Result :arrow_down:
+
 [<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="60%">](https://youtu.be/fKopy74weus)
 
 ### Customized
+
+```html
+<div align="left">
+      <a href="https://youtu.be/fKopy74weus">
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="480"
+             alt="Airflow Breeze - Building images">
+      </a>
+</div>
+```
+Result :arrow_down:
+
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
         <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="480"
