@@ -40,7 +40,7 @@ Table of Contents
    * [Video](#video)
    * [table of content](#table-of-content)
 
-For long files, you can autogenerate the table of contents TOC, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
+:books: For long files, you can autogenerate the table of contents TOC, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
 
 
 ## Badgets
@@ -58,7 +58,7 @@ Result :arrow_down:
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 ![Python](https://img.shields.io/badge/PRs-welcome-blueviolet)
 
-Create your own url badget: https://shields.io/
+:books: Create your own url badget in [shields.io](https://shields.io/)
 
 ## Quotes
 
@@ -173,7 +173,7 @@ flowchart LR
     click D href "http://www.github.com" "Open this in a new tab" _blank
 ```
 
-[More about Mermaid diagrams](https://mermaid-js.github.io/mermaid/#/)
+:books: More about [Mermaid diagrams](https://mermaid-js.github.io/mermaid/#/)
 
 ## References
 
@@ -211,7 +211,7 @@ Result :arrow_down:
 
 :blush: :sweat_drops: :innocent: :turtle: :paw_prints: :tulip: :santa: :bulb: :postal_horn: :dart: :grapes:
 
-You can copy and paste emojis from this list: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+:books: You can copy and paste emojis from this: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
 ## Insert code
 
@@ -264,7 +264,8 @@ Result :arrow_down:
 - Two
 - Three
   - Three one
-    - Other
+    - Three one one
+    - Three one two
 
 ```sh
 1. One
@@ -280,36 +281,40 @@ Result :arrow_down:
 
 ## Tables
 
+**Table 01**
+
 ```sh
-| Value    | Description |
-|--------- |-------------|
-| 1        | Meli        |
-| 2        | Aline       |
-| 3        | Elian       |
+| Value   | Description |
+|---------|-------------|
+| 1       | Meli        |
+| 2       | Aline       |
+| 3       | Elian       |
 ```
 
 Result :arrow_down:
 
-| Value    | Description |
-|--------- |-------------|
-| 1        | Meli        |
-| 2        | Aline       |
-| 3        | Elian       |
+| Value   | Description |
+|---------|-------------|
+| 1       | Meli        |
+| 2       | Aline       |
+| 3       | Elian       |
+
+**Table 02**
 
 ```sh
-| Code     | Person            | Fruits     | Plants      |
-|--------- |-------------------|------------|-------------|
-| 1        | :raising_hand:    | :grapes:   |  :mushroom: |
-| 2        | :older_woman:     | :tomato:   |  :tulip:    |
-| 3        | :man_with_turban: | :eggplant: |  :seedling: |
+| Code   | Person            | Fruits     | Plants      |
+|--------|-------------------|------------|-------------|
+| 1      | :raising_hand:    | :grapes:   |  :mushroom: |
+| 2      | :older_woman:     | :tomato:   |  :tulip:    |
+| 3      | :man_with_turban: | :eggplant: |  :seedling: |
 ```
 Result :arrow_down:
 
-| Code     | Person            | Fruits     | Plants      |
-|--------- |-------------------|------------|-------------|
-| 1        | :raising_hand:    | :grapes:   |  :mushroom: |
-| 2        | :older_woman:     | :tomato:   |  :tulip:    |
-| 3        | :man_with_turban: | :eggplant: |  :seedling: |
+| Code   | Person            | Fruits     | Plants      |
+|--------|-------------------|------------|-------------|
+| 1      | :raising_hand:    | :grapes:   |  :mushroom: |
+| 2      | :older_woman:     | :tomato:   |  :tulip:    |
+| 3      | :man_with_turban: | :eggplant: |  :seedling: |
 
 
 ## Checklist
@@ -328,15 +333,13 @@ Result :arrow_down:
 
 Result :arrow_down:
 
-[x] **Fruits** :grapes:
+- [x] **Fruits** :grapes:
   - :heavy_check_mark: Apples
   - :heavy_check_mark: Oranges
-
-[X] **Animals**  :turtle:
+- [X] **Animals**  :turtle:
   - :heavy_check_mark: Dog
   - :heavy_check_mark: Cat
-
-[ ] **Objets**  ::guitar::
+- [ ] **Objets**  ::guitar::
  
 
 ## Keyboard input
