@@ -1,5 +1,5 @@
-# Elemental Readme
-Summary of what you can add on your redame pages to make it more attractive
+# Elemental Readme :bookmark_tabs:
+"Elementary Readme" is a collection of Markdown elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation.
 
 ## Table of Contents (TOC)
 
@@ -40,7 +40,7 @@ Table of Contents
    * [Video](#video)
    * [table of content](#table-of-content)
 
-For long files you can autogenerate table of contents, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
+For long files, you can autogenerate the table of contents TOC, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
 
 
 ## Badgets
@@ -73,9 +73,9 @@ Result :arrow_down:
 ## Bold, Italics and Underline
 
 ```sh
-This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
+This is **bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
 ```
-This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
+This is **bold text**, this is *italic text*, we can also cross out a ~~word~~ or phrase amd this text is ***bold an italic***
 
 ## Insert an Image
 
@@ -84,7 +84,8 @@ This is ***bold text**, this is *italic text*, we can also cross out a ~~word~~ 
     <img width="200" height="200" src="img/final.png">
   </p>
 ```
- 
+Result :arrow_down:
+
 <p align="center">
   <img width="200" height="200" src="img/Professortocat_v2.png">
 </p>
@@ -98,10 +99,81 @@ This is the same as image:
     <img width="280" height="160" src="img/womanwhocode.gif">
   </p>
  ```
+
+Result :arrow_down:
 <p align="center">
   <img width="300" height="180" src="img/womanwhocode.gif">
 </p>
 
+## Mermaid diagrams
+
+```sh
+# FlowChart
+    ```mermaid
+    flowchart TD
+    A[start]-->|Text| B(Round)
+    B-->C{Decision}
+    C-->|One| D[Result 1]
+    C-->|Two| E[Result 2]
+    ```
+```
+Result :arrow_down:
+
+```mermaid
+flowchart TD
+A[start]-->|Text| B(Round)
+B-->C{Decision}
+C-->|One| D[Result 1]
+C-->|Two| E[Result 2]
+```
+
+```sh
+# Flow Vhart
+    ```mermaid
+    flowchart LR
+        A:::someclass --> B
+        classDef someclass fill:#f96;
+    ```
+```
+
+Result :arrow_down:
+
+```mermaid
+flowchart LR
+    A:::someclass --> B
+    classDef someclass fill:#f96;
+```
+
+```sh
+# Flow Chart with references
+    ```mermaid
+    flowchart LR
+        A-->B
+        B-->C
+        C-->D
+        D-->E
+        click A "http://www.github.com" _blank
+        click B "http://www.github.com" "Open this in a new tab" _blank
+        click C href "http://www.github.com" _blank
+        click D href "http://www.github.com" "Open this in a new tab" _blank
+    ```
+```
+
+Result :arrow_down:
+
+```mermaid
+flowchart LR
+    A-->B
+    B-->C
+    C-->D
+    D-->E
+    click A "http://www.github.com" _blank
+    click B "http://www.github.com" "Open this in a new tab" _blank
+    click C href "http://www.github.com" _blank
+    click D href "http://www.github.com" "Open this in a new tab" _blank
+```
+
+[More about Mermaid diagrams](https://mermaid-js.github.io/mermaid/#/)
 
 ## References
 
@@ -109,28 +181,37 @@ This is the same as image:
 # To external resources
 [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 ```
-  [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+Result :arrow_down:
+
+[Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
 ```sh
 # To same Readme page
 [Go to another topic in the same Readme](#badgets)
 ```
-  [Go to another topic in the same Readme](#badgets)
+Result :arrow_down:
+
+[Go to another topic in the same Readme](#badgets)
 
 ```sh
 # To another Readme on this directory
 [Go to another Readme in this workspace](other/Readme.md)
 ```
-  [Go to another Readme in this workspace](other/Readme.md)
+Result :arrow_down:
+
+[Go to another Readme in this workspace](other/Readme.md)
 
 
 ## Insert emojis
-You can copy and paste from this list: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+
 ```bash
 :blush: :sweat_drops: :innocent: :turtle: :paw_prints: :tulip: :santa: :bulb: :postal_horn: :dart: :grapes:
 ```
-Result:
+Result :arrow_down:
+
 :blush: :sweat_drops: :innocent: :turtle: :paw_prints: :tulip: :santa: :bulb: :postal_horn: :dart: :grapes:
+
+You can copy and paste emojis from this list: [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
 ## Insert code
 
@@ -154,35 +235,43 @@ Result:
     <img src="images/firefox-icon.png" alt="My test image">
     ```
 ```
-Result:
+Result :arrow_down:
 
 ```sh
 echo "Hello World!"
 ```   
+
 ```python
 print("Hello, World!")
 ```
+
 ```html   
 <img src="images/firefox-icon.png" alt="My test image">
 ```
 
+## Lists
 
-## List
-```bash
+```sh
 - One
 - Two
 - Three
   - Three one
     - Other
-  - Three two
 ```
-Result:
+Result :arrow_down:
+
 - One
 - Two
 - Three
   - Three one
     - Other
-  - Three two
+
+```sh
+1. One
+2. Two
+3. Three
+```
+Result :arrow_down:
 
 1. One
 2. Two
@@ -199,7 +288,7 @@ Result:
 | 3        | Elian       |
 ```
 
-Result:
+Result :arrow_down:
 
 | Value    | Description |
 |--------- |-------------|
@@ -207,70 +296,21 @@ Result:
 | 2        | Aline       |
 | 3        | Elian       |
 
-## Mermaid diagrams
-
 ```sh
-# FlowChart
-    ```mermaid
-    flowchart TD
-    A[start]-->|Text| B(Round)
-    B-->C{Decision}
-    C-->|One| D[Result 1]
-    C-->|Two| E[Result 2]
-    ```
+| Value    | Column A    | Column B |Column C |
+|--------- |-------------|--------- |---------|
+| 1        | Meli        | :grapes: |         |
+| 2        | Aline       |          |         |
+| 3        | Elian       |          |         |
 ```
+Result :arrow_down:
 
-```mermaid
-flowchart TD
-A[start]-->|Text| B(Round)
-B-->C{Decision}
-C-->|One| D[Result 1]
-C-->|Two| E[Result 2]
-```
+| Value    | Column A    | Column B |Column C |
+|--------- |-------------|--------- |---------|
+| 1        | Meli        | :grapes: |         |
+| 2        | Aline       |          |         |
+| 3        | Elian       |          |         |
 
-```sh
-# Flow Vhart
-    ```mermaid
-    flowchart LR
-        A:::someclass --> B
-        classDef someclass fill:#f96;
-    ```
-```
-
-```mermaid
-flowchart LR
-    A:::someclass --> B
-    classDef someclass fill:#f96;
-```
-
-```sh
-# Flow Chart with references
-    ```mermaid
-    flowchart LR
-        A-->B
-        B-->C
-        C-->D
-        D-->E
-        click A "http://www.github.com" _blank
-        click B "http://www.github.com" "Open this in a new tab" _blank
-        click C href "http://www.github.com" _blank
-        click D href "http://www.github.com" "Open this in a new tab" _blank
-    ```
-```
-
-```mermaid
-flowchart LR
-    A-->B
-    B-->C
-    C-->D
-    D-->E
-    click A "http://www.github.com" _blank
-    click B "http://www.github.com" "Open this in a new tab" _blank
-    click C href "http://www.github.com" _blank
-    click D href "http://www.github.com" "Open this in a new tab" _blank
-```
-
-[More about Mermaid](https://mermaid-js.github.io/mermaid/#/)
 
 ## Checklist
 
@@ -286,9 +326,11 @@ flowchart LR
 [x] **Fruits** :grapes:
   - :heavy_check_mark: Apples
   - :heavy_check_mark: Oranges
-[ ] **Animals**  :turtle:
+[X] **Animals**  :turtle:
   - :heavy_check_mark: Dog
   - :heavy_check_mark: Cat
+[ ] **Animals**  :turtle:
+ 
 
 ## Keyboard input
 
