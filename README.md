@@ -288,7 +288,7 @@ flowchart LR
 ### Customized
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
-        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="470"
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="480"
              alt="Airflow Breeze - Building images">
       </a>
 </div>
