@@ -1,4 +1,4 @@
-# Elemental Readme :bookmark_tabs: :art:
+# Elementary Readme :bookmark_tabs: :art:
 **Elementary Readme** is a collection of **Markdown** elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation. :octocat:
 
 ## Table of Contents (TOC)
