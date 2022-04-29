@@ -1,5 +1,5 @@
 # Elemental Readme :bookmark_tabs: :art:
-**Elementary Readme** is a collection of Markdown elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation. :octocat:
+**Elementary Readme** is a collection of **Markdown** elements that we can use to quickly create our documentation in GitHub Readmes. Feel free to reference it if you want to remember how to add basic elements to your documentation, also fee to contribute adding more common elements that we use to create documentation. :octocat:
 
 ## Table of Contents (TOC)
 
@@ -367,7 +367,7 @@ Result :arrow_down:
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
         <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="480"
-             alt="Airflow Breeze - Building images">
+             alt="imagine-dragons">
       </a>
 </div>
 ```
@@ -376,7 +376,7 @@ Result :arrow_down:
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
         <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="480"
-             alt="Airflow Breeze - Building images">
+             alt="imagine-dragons">
       </a>
 </div>
 
