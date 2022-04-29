@@ -187,7 +187,7 @@ Result :arrow_down:
 ```
 Result :arrow_down:
 
-[Go to another topic in the same Readme](#badgets)
+[Go to another topic in the same Readme](#Badges)
 
 ```sh
 # To another Readme on this directory
