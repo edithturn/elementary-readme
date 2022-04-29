@@ -40,7 +40,7 @@ Table of Contents
 :books: For long files, you can autogenerate the table of contents TOC, see more [Generate TOC 'Table Of Content'](https://github.com/ekalinin/github-markdown-toc)
 
 
-## Badgets
+## Badges
 
 ```sh
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
