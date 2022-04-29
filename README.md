@@ -297,19 +297,19 @@ Result :arrow_down:
 | 3        | Elian       |
 
 ```sh
-| Value    | Column A    | Column B |Column C |
-|--------- |-------------|--------- |---------|
-| 1        | Meli        | :grapes: |         |
-| 2        | Aline       |          |         |
-| 3        | Elian       |          |         |
+| Code     | Person            | Fruits     | Plants      |
+|--------- |-------------------|------------|-------------|
+| 1        | :raising_hand:    | :grapes:   |  :mushroom: |
+| 2        | :older_woman:     | :tomato:   |  :tulip:    |
+| 3        | :man_with_turban: | :eggplant: |  :seedling: |
 ```
 Result :arrow_down:
 
-| Value    | Column A    | Column B |Column C |
-|--------- |-------------|--------- |---------|
-| 1        | Meli        | :grapes: |         |
-| 2        | Aline       |          |         |
-| 3        | Elian       |          |         |
+| Code     | Person            | Fruits     | Plants      |
+|--------- |-------------------|------------|-------------|
+| 1        | :raising_hand:    | :grapes:   |  :mushroom: |
+| 2        | :older_woman:     | :tomato:   |  :tulip:    |
+| 3        | :man_with_turban: | :eggplant: |  :seedling: |
 
 
 ## Checklist
@@ -386,7 +386,13 @@ Result :arrow_down:
 
 ## Footnote
 
+```sh
+  Here is a simple footnote[^1].
+
+  [^1]: My reference.
+```
+Result :arrow_down:
+
 Here is a simple footnote[^1].
 
-
-[^1]: My reference.
+  [^1]: My reference.
