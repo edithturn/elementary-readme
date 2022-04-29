@@ -50,6 +50,8 @@ For long files you can autogenerate table of contents, see more [Generate TOC 'T
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 ![Python](https://img.shields.io/badge/PRs-welcome-blueviolet)
 ```
+Result :arrow_down:
+
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
@@ -281,12 +283,12 @@ flowchart LR
 ## Video
 
 ### Simple
-[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="50%">](https://youtu.be/fKopy74weus)
+[<img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="60%">](https://youtu.be/fKopy74weus)
 
 ### Customized
 <div align="left">
       <a href="https://youtu.be/fKopy74weus">
-        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="560"
+        <img src="https://img.youtube.com/vi/fKopy74weus/maxresdefault.jpg" width="460"
              alt="Airflow Breeze - Building images">
       </a>
 </div>
